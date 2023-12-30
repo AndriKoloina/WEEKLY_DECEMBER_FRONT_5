@@ -255,7 +255,7 @@ body{
     font-size: 1.3em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: color 0.3s;
-    position: relative; /* Assurez-vous d'avoir un positionnement relatif ou absolu */
+    position: relative; 
 }
 
 .lien2:hover {
@@ -273,7 +273,7 @@ body{
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     transform-origin: left;
-    z-index: -1; /* Assurez-vous que l'underline est en arrière-plan */
+    z-index: -1; 
 }
 
 .lien2:hover::before {
@@ -597,4 +597,85 @@ footer{
 }
 .lien_href2:hover{
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 5%;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+
+    .dropdown-content {
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-left: 0;
+        height: auto; 
+        position: relative;
+        margin-top: 0;
+        animation: none; 
+    }
+
+    #back {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 2%;
+        position: relative;
+    }
+
+    #search {
+        margin-left: 0;
+        width: 80%;
+        margin-top: 2%; 
+    }
+    .title {
+        font-size: 3.5em;
+        margin-top: 5%;
+        width: 80%;
+    }
+
+    .paragraph-container,
+    .paragraph-container1 {
+        font-size: 1em; 
+        margin-left: 5%;
+    }
+
+    #icon-logo {
+        margin-left: 2%;
+        display: block;
+    }
+    .titre {
+        font-size: 1.5em;
+        margin-left: 5%;
+    }
+
+    .sub-title {
+        font-size: 2.5em;
+        margin-left: 10%;
+    }
+
+    .info-container {
+        font-size: 2em;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .sub-graph {
+        font-size: 1.2em;
+        margin-left: 5%;
+    }
+    .tbody{
+        margin-top: 25%;
+    }
 }
