@@ -15,16 +15,26 @@ const btn4 = _$("btn4")
 const btn5 = _$("btn5")
 const btn6 = _$("btn6")
 const btn7 = _$("btn7")
+const btn8 = _$("btn8")
+const btn9 = _$("btn9")
+const btn10= _$("btn10")
+const btn11 = _$("btn11")
 const graph1 = _$("graph1")
 const build = _$("build")
 const icon = _$("icon-logo")
 const check_container1 = _$("Check-container1")
 const check_container2 = _$("Check-container2")
 const check_container3 = _$("Check-container3")
-const sponsor1 = _$("sponsor1")
-const sponsor2 = _$("sponsor2")
-const sponsor3 = _$("sponsor3")
+const flien1 = _$("fLien1")
+const flien2 = _$("fLien2")
+const flien3 = _$("fLien3")
+const flien4 = _$("fLien4")
 
+
+let tab_footer1 = ["Features","Enterprise","Copilot","Security","Pricing","Team","Resources","Roadmap","Compare GitHub"]
+let tab_footer2 = ["Developer API","Partners","Electron","GitHub Desktop"]
+let tab_footer3 = ["Docs","Community","Professional Services","Premium Support","Skills","Status","Contact GitHub"]
+let tab_footer4 = ["About","Customer stories","Blog","The ReadME Project","Careers","Press","Inclusion","Social Impact","Shop"]
 let icon_logo = ["https://github.githubassets.com/assets/3m-0151c2fda0ce.svg","https://github.githubassets.com/assets/kpmg-c249f20c5173.svg","https://github.githubassets.com/assets/mercedes-fcf97d2d6ec4.svg","https://github.githubassets.com/assets/sap-96248a56d312.svg","https://github.githubassets.com/assets/pg-f1f19955c4e4.svg","https://github.githubassets.com/assets/telus-df0c2109df99.svg"]
 let tab_check = ["Initialize CodeQL","Autobuild","Perform CodeQL Analyses"]
 let tab_time = ["1m 42s","1m 24s","1m 36s"]
@@ -139,3 +149,24 @@ listContainer(check_container3,"Perform CodeQL Analyses","1m 36s")
 buttonCheck(btn6,1.5,8,2,"#33B3AE","transparent",0,13,0,"Did you know?","#33B3AE")
 buttonCheck(btn7,1.5,8,2,"#F778BA","transparent",0,13,0,"Did you know?","#F778BA")
 
+buttonCheck(btn8,3,30,0.2,"transparent","white",7,10,0,"Email address","gray","")
+buttonCheck(btn9,3,15,0,"transparent","#763EC6",7,-4,0,"Sign up","white","center")
+buttonCheck(btn10,3,20,0.5,"#763EC6","transparent",0,3,0,"Start a free enterprise trial","white")
+buttonCheck(btn11,3,20,1,"white","transparent",5,0,0,"Subscribe","white",0)
+
+const navLink1 = (selector, table) => {
+    table.forEach((data) => {   
+   let lien = _createElts("div")
+      selector.appendChild(lien)
+      lien.style.marginTop = "2em"
+      let a = _createElts("a")
+      a.href = "#"
+      a.textContent = data
+      a.classList.add("lien_href2")
+      lien.appendChild(a)
+    });
+  };
+  navLink1(flien1,tab_footer1)
+  navLink1(flien2,tab_footer2)
+  navLink1(flien3,tab_footer3)
+  navLink1(flien4,tab_footer4   )
