@@ -520,15 +520,7 @@ body{
     font-size: 1.2rem;
     margin-left: 10%;
 }
-#sponsor1{
-    display: flex;
-}
-#sponsor2{
-    display: flex;
-}
-#sponsor3{
-    display: flex;
-}
+
 .tbody5{
     margin-top: 5%;
     margin-left: 15%;
@@ -678,4 +670,170 @@ footer{
     .tbody{
         margin-top: 25%;
     }
+    .txt-container1 {
+        width: 100%;
+        margin-left: 0;
+        position: relative;
+        margin-top: 0;
+    }
+
+    .lien1 {
+        margin-left: 0;
+    } 
+    .info-container1 {
+        width: 80%; 
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .lien2 {
+        margin-left: 5%;
+    }
+    .txt-content div {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .graph1 {
+        flex-direction: column;
+    }
+    .img3 {
+        width: 100%;
+        margin-left: 0;
+    }
+    #graph1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .graph-container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .graph2 {
+        width: 90%;
+        margin-left: 0;
+    }
+    .img4 {
+        width: 38rem;
+        margin-top: 10%;
+    }
+    
+    .img5 {
+        width: 40rem;
+        margin-top: 29%;
+    }
+    .sub-title2 {
+        margin-left: 5%;
+    }
+
+    .sub2-title2 {
+        margin-left: 5%;
+    }
+    .check-container {
+        width: 80px;
+        height: 80px;
+    }
+
+    .round-background {
+        width: 25%;
+        height: 25%;
+    }
+
+    .check-mark {
+        top: 50%;
+        left: 50%;
+        width: 4px;
+        height: 8px;
+    }
+
+    #Check-container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .build {
+        width: 90%; 
+    }
+
+    #build {
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .img6 {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+    .img6 {
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .paragraph {
+        width: 100%; 
+    }
+    #tbody2 {
+        margin-top: 5%;
+    }
+
+    #tbody2 h3 {
+        margin-left: 2%;
+    }
+
+    #img5 {
+        margin-top: 2%;
+    }
+
+    #txt-container1 {
+        margin-top: 1%; 
+    }
+    #tbody4 h3 {
+        margin-left: 2%; 
+    }
+
+    #tbody4 {
+        margin-top: 5%; 
+    }
+
+    .sub-title3 {
+        margin-left: 2%; 
+    }
+    #graph4 {
+        margin-top: 5%;
+    }
+
+    .txt-generate {
+        margin-left: 2%;
+    }
+    .tbody5 {
+        margin-left: 5%;
+    }
+
+    .tbody5 h1,
+    .tbody5 p {
+        width: 100%; 
+    }
+    .button {
+        margin-left: 0;
+    }
+    footer {
+        margin-top: 2%; 
+        display: block;
+    }
+
+    .footer1 {
+        margin-left: 0; 
+}
+#fLien {
+    margin-left: 0;
+    display: block; 
+}
+
+.ftitle,
+.lien_href2 {
+    width: 100%; 
+    margin-left: 0; 
+    text-align: center; 
+}
 }
